@@ -1,0 +1,30 @@
+Drill report for C:\PasantiaCendit\Desarrollo\Hardware \Cendit11713-v2\MainBoard.Pic18F4550.Option2\MainBoard.kicad_pcb
+Created on 21-12-2017 12:56:22 p.m.
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'MainBoard.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (48 holes)
+    T2  0,50mm  0,020"  (2 holes)
+    T3  0,70mm  0,028"  (3 holes)
+    T4  0,80mm  0,031"  (46 holes)
+    T5  1,00mm  0,039"  (14 holes)
+    T6  1,00mm  0,039"  (2 holes)
+    T7  1,02mm  0,040"  (51 holes)
+
+    Total plated holes count 166
+
+
+Drill file 'MainBoard-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0,70mm  0,028"  (2 holes)
+    T2  1,00mm  0,039"  (4 holes)
+
+    Total unplated holes count 6
