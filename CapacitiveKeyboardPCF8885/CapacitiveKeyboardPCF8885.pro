@@ -1,4 +1,4 @@
-update=mar 07 nov 2017 08:54:29 -04
+update=jue 25 ene 2018 17:54:26 -04
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/mnt/local/PasantiaCendit/Desarrollo/Hardware /Cendit11713-v2/Libraries/CenditBasic
+LibName31=/home/jsars/PasantiaCendit/Desarrollo/Hardware/Cendit11713/Libraries/CenditBasic
+LibName32=switches
