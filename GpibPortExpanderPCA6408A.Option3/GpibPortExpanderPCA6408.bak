@@ -27,17 +27,6 @@ LIBS:linear
 LIBS:regul
 LIBS:74xx
 LIBS:cmos4000
-LIBS:eSim_Analog
-LIBS:eSim_Devices
-LIBS:eSim_Digital
-LIBS:eSim_Hybrid
-LIBS:eSim_Miscellaneous
-LIBS:eSim_Power
-LIBS:eSim_Sources
-LIBS:eSim_Subckt
-LIBS:eSim_User
-LIBS:eSim_Plot
-LIBS:eSim_PSpice
 LIBS:GpibPortExpanderPCA6408-cache
 EELAYER 25 0
 EELAYER END
@@ -1151,23 +1140,10 @@ F 3 "" H 1825 2375 50  0001 C CNN
 	1    1825 2375
 	0    1    1    0   
 $EndComp
-$Comp
-L GND #PWR026
-U 1 1 5A51AA54
-P 1825 2475
-F 0 "#PWR026" H 1825 2225 50  0001 C CNN
-F 1 "GND" V 1825 2275 50  0000 C CNN
-F 2 "" H 1825 2475 50  0000 C CNN
-F 3 "" H 1825 2475 50  0000 C CNN
-	1    1825 2475
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1825 2275 1650 2275
 Wire Wire Line
 	1825 2375 1650 2375
-Wire Wire Line
-	1825 2475 1650 2475
 Entry Wire Line
 	2150 2875 2250 2775
 Entry Wire Line
@@ -1253,16 +1229,34 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5A538127
-P 1825 2675
-F 0 "#PWR?" H 1825 2425 50  0001 C CNN
-F 1 "GND" V 1825 2475 50  0000 C CNN
-F 2 "" H 1825 2675 50  0000 C CNN
-F 3 "" H 1825 2675 50  0000 C CNN
-	1    1825 2675
+P 1825 3575
+F 0 "#PWR?" H 1825 3325 50  0001 C CNN
+F 1 "GND" V 1825 3375 50  0000 C CNN
+F 2 "" H 1825 3575 50  0000 C CNN
+F 3 "" H 1825 3575 50  0000 C CNN
+	1    1825 3575
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1650 2575 1825 2575
 Wire Wire Line
-	1825 2675 1650 2675
+	1650 2475 1775 2475
+Wire Wire Line
+	1775 2475 1775 2675
+Connection ~ 1775 2575
+Wire Wire Line
+	1775 2675 1650 2675
+Wire Wire Line
+	1650 3575 1825 3575
+Wire Wire Line
+	1800 3575 1800 3275
+Wire Wire Line
+	1800 3275 1650 3275
+Connection ~ 1800 3575
+Wire Wire Line
+	1650 3375 1800 3375
+Connection ~ 1800 3375
+Wire Wire Line
+	1650 3475 1800 3475
+Connection ~ 1800 3475
 $EndSCHEMATC

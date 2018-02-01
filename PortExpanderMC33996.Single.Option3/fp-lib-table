@@ -1,5 +1,3 @@
 (fp_lib_table
-  (lib (name CenditFootprints)(type KiCad)(uri "C:/PasantiaCendit/Desarrollo/Hardware /Cendit11713-v2/Libraries/CenditFootprints.pretty")(options "")(descr ""))
-  (lib (name CenditFootprints2)(type KiCad)(uri "/mnt/local/PasantiaCendit/Desarrollo/Hardware /Cendit11713-v2/Libraries/CenditFootprints.pretty")(options "")(descr ""))
-  (lib (name CenditFootprints3)(type KiCad)(uri "/home/jarias/Pasantia/Desarrollo/Hardware /Cendit11713-v2/Libraries/CenditFootprints.pretty")(options "")(descr ""))
+  (lib (name CenditFootprints)(type KiCad)(uri /home/jarias/Pasantia/Desarrollo/Hardware/Cendit11713/Libraries/CenditFootprints.pretty)(options "")(descr ""))
 )

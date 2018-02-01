@@ -1,4 +1,4 @@
-update=19-12-2017 09:57:55 p.m.
+update=jue 01 feb 2018 12:38:56 VET
 version=1
 last_client=kicad
 [pcbnew]
