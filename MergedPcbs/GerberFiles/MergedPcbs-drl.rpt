@@ -1,5 +1,5 @@
-Drill report for /home/jarias/Pasantia/Desarrollo/Hardware/Cendit11713/MergedPcbs/MergedPcbs.kicad_pcb
-Created on jue 01 feb 2018 14:10:07 VET
+Drill report for /home/jsars/PasantiaCendit/Desarrollo/Hardware/Cendit11713/MergedPcbs/KicadFiles/MergedPcbs.kicad_pcb
+Created on dom 04 feb 2018 19:33:31 -04
 
 Copper Layer Stackup:
     =============================================================
@@ -10,7 +10,7 @@ Copper Layer Stackup:
 Drill file 'MergedPcbs.drl' contains
     plated through holes:
     =============================================================
-    T1  0,40mm  0,016"  (135 holes)
+    T1  0,40mm  0,016"  (136 holes)
     T2  0,50mm  0,020"  (2 holes)
     T3  0,70mm  0,028"  (3 holes)
     T4  0,80mm  0,031"  (60 holes)
@@ -18,7 +18,7 @@ Drill file 'MergedPcbs.drl' contains
     T6  1,00mm  0,039"  (2 holes)
     T7  1,02mm  0,040"  (63 holes)
 
-    Total plated holes count 359
+    Total plated holes count 360
 
 
 Drill file 'MergedPcbs-NPTH.drl' contains

@@ -1,6 +1,7 @@
 ARCHIVOS GERBER PARA DISEÑO DE CENDIT11713
 
-Los archivos que comienzan con <MergedPcbs-TOP> contienen diseño de la capa frontal TOP. Esta capa NO debe invertirse de ninguna forma.
+Los archivos que comienzan con <MergedPcbs-TOP> contienen diseño de la capa frontal TOP. 
+Esta capa NO debe invertirse de ninguna forma.
 
 Los archivos que comienzan con <MergedPcbs-BOTTOM> contienen diseño de la capa posterior BOTTOM. Deberian ser invertidos el lado izquierdo con el lado derecho (invertir en el eje Y), si el software de la maquina de prototipos no realiza esta inversión.
 

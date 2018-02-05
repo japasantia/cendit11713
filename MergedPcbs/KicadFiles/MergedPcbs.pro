@@ -1,10 +1,6 @@
-update=22/05/2015 07:44:53
+update=dom 04 feb 2018 19:37:09 -04
 version=1
 last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -70,4 +66,6 @@ LibName36=eSim_Subckt
 LibName37=eSim_User
 LibName38=eSim_Plot
 LibName39=eSim_PSpice
+[general]
+version=1
 
